@@ -11,7 +11,10 @@ cl_crosshair_drawoutline 0;
 
 cl_crosshairalpha 800; cl_crosshaircolor 2; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 2; clcrosshairstyle_4; 
 
-cl_radar_always_centered 0; cl_radar_scale 0.3; net_graph 1;net_graphpos 2;net_graphproportionalfont 0.5;+cl_show_team_equipment ;bind n -attack;bind space;bind n -attack;bind space; speaker_config 2;
+
+cl_radar_always_centered 0; cl_radar_scale 0.3; net_graph 1;net_graphpos 2;net_graphproportionalfont 0.5;+cl_show_team_equipment ;
+bind n -attack;bind space;bind n -attack;bind space; speaker_config 2;
+
 
 bind "w" "+forward;cl_clanid 10752186"; 
 bind "a" "+moveleft;cl_clanid 10752145"; 
