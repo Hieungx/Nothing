@@ -1,12 +1,17 @@
 cl_crosshairalpha 255;
+cl_crosshair_drawoutline 0;
 cl_crosshaircolor 1;
 cl_crosshairdot 0;
-cl_crosshairgap -2;
-cl_crosshairsize 2;
+cl_crosshairsize 3;
+cl_crosshairgap -2.5
+cl_crosshairstyle 4;
+cl_crosshairthickness 0;
+
+
+
 cl_crosshairstyle 4;
 cl_crosshairusealpha 1;
 cl_crosshairthickness 1;
-cl_crosshair_drawoutline 0;
 
 
 cl_crosshairalpha 800; cl_crosshaircolor 2; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 2; cl_crosshairstyle 4; 
@@ -26,7 +31,7 @@ bind "s" "+back;cl_clanid 10752151";
   
 -novid -tickrate 128 -high -threads 6 +fps_max 0 +cl_interp 0 +cl_interp_ratio 1 +rate 128000 +cl_updaterate 128 +cl_cmdrate 128 +mat_queue_mode 2 -freq 144 -refresh 144  -d3d9ex -nojoy
 
-cl_crosshair_drawoutline 0;cl_crosshaircolor 1;cl_crosshairdot 0;cl_crosshairgap -2.5;cl_crosshairsize 4;cl_crosshairstyle 4;cl_crosshairthickness 0
+cl_crosshair_drawoutline 0;cl_crosshairdot 0;;cl_crosshairdot 0;cl_crosshairgap -2.5;cl_crosshairsize 4;cl_crosshairstyle 4;cl_crosshairthickness 0
 
 bind n -attack;bind space;
 
