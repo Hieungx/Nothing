@@ -7,6 +7,9 @@ cl_crosshairgap -2.5
 cl_crosshairstyle 4;
 cl_crosshairthickness 0;
 
+cl_radar_always_centered 0; cl_radar_scale 0.3; net_graph 1;net_graphpos 2;net_graphproportionalfont 0.5;+cl_show_team_equipment ;
+bind n -attack;bind space;bind n -attack;bind space; speaker_config 2;
+
 
 
 cl_crosshairstyle 4;
