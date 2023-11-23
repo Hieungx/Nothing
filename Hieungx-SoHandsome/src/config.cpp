@@ -1,9 +1,9 @@
 cl_crosshairalpha 255;
 cl_crosshair_drawoutline 0;
 cl_crosshaircolor 1;
-cl_crosshairdot 1;
-cl_crosshairsize 2;
-cl_crosshairgap -1.5
+cl_crosshairdot 0;
+cl_crosshairsize 4;
+cl_crosshairgap -2.5
 cl_crosshairstyle 4;
 cl_crosshairthickness 0;
 
